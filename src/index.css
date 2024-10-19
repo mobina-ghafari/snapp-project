@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: sans;
+  src: url(./font/Iranian\ Sans.ttf);
+}
+
+body{
+  font-family: sans;
+}

@@ -7,7 +7,7 @@ import { faBars, faChevronDown } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar =()=>{
     return(
-        <div dir='rtl' className="px-40 max-xl:px-16 max-lg:px-5 py-2 max-lg:py-0 border-b">
+        <div dir='rtl' className="bg-white z-20 w-full px-40 sticky top-0 max-xl:px-16 max-lg:px-5 py-2 max-lg:py-0 border-b">
             <nav className="flex justify-start items-center max-lg:hidden">
                 <div className="me-5">
                     <a href="/ " className="">

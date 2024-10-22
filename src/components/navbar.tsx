@@ -7,7 +7,7 @@ import { faBars, faChevronDown } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar =()=>{
     return(
-        <div dir='rtl' className="px-40 max-xl:px-16 max-lg:px-5 py-2 max-lg:py-1 border-b">
+        <div dir='rtl' className="px-40 max-xl:px-16 max-lg:px-5 py-2 max-lg:py-0 border-b">
             <nav className="flex justify-start items-center max-lg:hidden">
                 <div className="me-5">
                     <a href="/ " className="">
@@ -18,7 +18,7 @@ const Navbar =()=>{
                     <div className="text-sm font-light text-stone-600 cursor-default">سوپراپ اسنپ 
                     <FontAwesomeIcon className='w-3 h-3 ms-2' icon={faChevronDown}/>
                     </div>
-                    <div className="hidden group-hover:block absolute top-4 w-44 ">
+                    <div className="hidden group-hover:block absolute top-4 w-44 z-10">
                         <div className=" bg-white flex flex-col justify-center border mt-3 rounded-xl px-6 py-4 w-full">
                             <a href="/" className="text-sm font-light text-stone-600 hover:text-green-500 hover:font-bold">درخواست تاکسی</a>
                             <a href="/" className="text-sm font-light text-stone-600 hover:text-green-500 hover:font-bold mt-5">پیک موتوری</a>
@@ -51,7 +51,7 @@ const Navbar =()=>{
                     <div className="text-sm font-light text-stone-600 cursor-default">درباره اسنپ 
                     <FontAwesomeIcon className='w-3 h-3 ms-2' icon={faChevronDown}/>
                     </div>
-                    <div className="hidden group-hover:block absolute top-4 w-44">
+                    <div className="hidden group-hover:block absolute top-4 w-44 z-10">
                         <div className=" bg-white flex flex-col justify-center border  rounded-xl px-6 py-4 mt-3 w-full">
                             <a href="/" className="text-sm font-light text-stone-600 hover:text-green-500 hover:font-bold">فرصت های شغلی</a>
                             <a href="/" className="text-sm font-light text-stone-600 hover:text-green-500 hover:font-bold mt-5">درباره ما</a>
@@ -60,6 +60,7 @@ const Navbar =()=>{
                     </div>
                 </div>
             </nav>
+            {/* navbar in small size */}
             <nav className="flex justify-between items-center lg:hidden">
                 <div className="">
                     <FontAwesomeIcon icon={faBars} />

@@ -3,10 +3,16 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: sans;
-  src: url(./font/Iranian\ Sans.ttf);
+  font-family: 'Iranian Sans';
+  src: url('./font/Iranian\ Sans.ttf') format('truetype');
+  font-display: swap; /* این خط باعث می‌شود که تا زمان بارگذاری کامل فونت اصلی، از فونت پشتیبان استفاده شود */
 }
 
 body{
-  font-family: sans;
+  font-family: 'Iranian Sans';
+}
+
+.header-img{
+  background-image: url(./img/intro_desktop.jpg);
+  min-height: 61vh;
 }

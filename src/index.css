@@ -7,7 +7,7 @@
 @font-face {
   font-family: 'yekan';
   src: url('./font/iranyekanwebbold.ttf') format('truetype');
-  font-display: swap; /* این خط باعث می‌شود که تا زمان بارگذاری کامل فونت اصلی، از فونت پشتیبان استفاده شود */
+  font-display: swap;
 }
 
 body{

@@ -1,6 +1,7 @@
 import Cards from './components/cards';
 import Header from './components/header';
 import Navbar from './components/navbar';
+import Slider from './components/slider';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navbar/>
       <Header/>
       <Cards/>
+      <Slider/>
     </>
   );
 }

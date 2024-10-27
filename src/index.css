@@ -19,3 +19,8 @@ body{
   background-image: url(./img/intro_desktop.jpg);
   min-height: 61vh;
 }
+
+/* super img */
+.super-img{
+  background-image: url(./img/super-app.jpg);
+}

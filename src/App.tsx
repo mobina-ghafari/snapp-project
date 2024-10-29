@@ -1,4 +1,5 @@
 import Cards from './components/cards';
+import Footer from './components/footer';
 import Header from './components/header';
 import Navbar from './components/navbar';
 import Registration from './components/registration';
@@ -14,6 +15,7 @@ function App() {
       <Slider/>
       <Super/>
       <Registration/>
+      <Footer/>
     </>
   );
 }

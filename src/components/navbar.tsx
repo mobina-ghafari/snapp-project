@@ -2,12 +2,15 @@
 import Logo from '../img/LOGO-png-Eng-1024x614.png'
 //fontawesome
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faChevronDown } from '@fortawesome/free-solid-svg-icons';
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
+
+//sidebar
+import Sidebar from './sidebar';
 
 
 const Navbar =()=>{
     return(
-        <div dir='rtl' className="bg-white z-20 w-full px-40 sticky top-0 max-xl:px-16 max-lg:px-5 py-2 max-lg:py-0 border-b">
+        <div dir='rtl' className="bg-white z-50 w-full px-40 sticky top-0 max-xl:px-16 max-lg:px-5 py-2 border-b max-lg:p-0 max-lg:h-16 ">
             <nav className="flex justify-start items-center max-lg:hidden">
                 <div className="me-5">
                     <a href="/ " className="">
@@ -63,7 +66,7 @@ const Navbar =()=>{
             {/* navbar in small size */}
             <nav className="flex justify-between items-center lg:hidden">
                 <div className="">
-                    <FontAwesomeIcon icon={faBars} />
+                    <Sidebar/>
                 </div>
                 <div className="">
                     <img src={Logo} alt="" className='w-28' />
